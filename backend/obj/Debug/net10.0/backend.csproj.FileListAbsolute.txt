@@ -31,3 +31,4 @@ C:\Users\Administrator\Documents\Yaatra\backend\obj\Debug\net10.0\refint\backend
 C:\Users\Administrator\Documents\Yaatra\backend\obj\Debug\net10.0\backend.pdb
 C:\Users\Administrator\Documents\Yaatra\backend\obj\Debug\net10.0\backend.genruntimeconfig.cache
 C:\Users\Administrator\Documents\Yaatra\backend\obj\Debug\net10.0\ref\backend.dll
+C:\Users\Administrator\Documents\Yaatra\backend\obj\Debug\net10.0\backend.sourcelink.json

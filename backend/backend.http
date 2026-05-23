@@ -1,6 +1,30 @@
 @backend_HostAddress = http://localhost:5089
 
-GET {{backend_HostAddress}}/weatherforecast/
-Accept: application/json
+### Live metrics
+GET {{backend_HostAddress}}/api/metrics/live
 
-###
+### Online drivers
+GET {{backend_HostAddress}}/api/drivers/online
+
+### Active trips
+GET {{backend_HostAddress}}/api/trips/active
+
+### Create trip
+POST {{backend_HostAddress}}/api/trips/create
+Content-Type: application/json
+
+{
+  "pickup": "Cyber Hub, Gurgaon",
+  "dropoff": "Sector 43, Gurgaon",
+  "vehicleType": "sedan"
+}
+
+### Estimate fare
+POST {{backend_HostAddress}}/api/trips/estimate-fare
+Content-Type: application/json
+
+{
+  "pickup": "Sector 22, Gurgaon",
+  "dropoff": "Huda City Center",
+  "vehicleType": "auto"
+}
