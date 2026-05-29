@@ -1,0 +1,10 @@
+# Build artifacts
+backend/bin/
+backend/obj/
+
+# Logs
+backend/*.log
+backend/run.log
+backend/run.err.log
+frontend/frontend.log
+*.log
